@@ -1,0 +1,79 @@
+/* RESETS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/*
+@import "normalize.css";
+*/
+@import "resets/_minimal.reset.css";
+
+/* VENDOR CSS FRAMEWORKS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/* @import "../../vendors/css/tachyons/_tachyons.css"; */
+
+/* GENERATED > GULP:SPRITES [AUTOMATICALLY GENERATED STYLESHEETS FOR ICONS SPRITE VIA GULP TASK.]
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/* @import "generated/_sprite"; */
+
+/* MIXINS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/* @import "mixins/_media-queries.mixins.css"; */
+@import "mixins/media/_@small.media.css";
+@import "mixins/media/_@medium.media.css";
+@import "mixins/media/_@large.media.css";
+@import "mixins/media/_@xlarge.media.css";
+@import "mixins/media/_@lo-dpi.media.css";
+@import "mixins/media/_@hi-dpi.media.css";
+
+/* UTILS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+@import "utils/_basic.utils.css";
+
+/* BASE > SET UP PROJECT'S GLOBAL/SHARED/COMMON STYLES.
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/* @import "base/variables@simple/_grid.variables.css"; */
+@import "base/variables@simple/_colors.variables.css";
+/* @import "base/variables@simple/_font.variables.css"; */
+/* @import "base/variables@root/_custom-properties.variables.css"; */
+/* @import "base/animations/_animation.css"; */
+/* @import "base/animations/_move-in-bottom.animation.css"; */
+/* @import "base/animations/_move-in-left.animation.css"; */
+/* @import "base/animations/_move-in-right.animation.css"; */
+/* @import "base/effects/_reveal-item.effect.css"; */
+/* @import "base/layouts/_section.layout"; */
+
+/*
+  > SELECT ONE OF RESPONSIVE DESIGN STRATEGIES
+  > CORRESPONDING TO [build-utils/webpack/postcss/postcss.config.js	--> "postcss-map" --> SETTINGS]
+*/
+@import "base/@desktop-first/_typography@desktop-first.css";
+@import "base/@desktop-first/_common@desktop-first.css";
+
+/*
+@import "base/@mobile-first-strategy/_typography@mobile-first-strategy.css";
+@import "base/@mobile-first-strategy/_common@mobile-first-strategy.css";
+*/
+
+/* GRIDS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+/*
+@import "grids/_lost.grid";
+@import "grids/_custom.grid";
+*/
+
+/* COMPONENTS > REUSABLE/PLUGABLE BLOCKS
+  > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > > >
+  ------------------------------------------------------------------------------------------------------------- */
+@import "./components/_header.css";
+@import "./components/_features.css";
+@import "./components/_gallery.css";
+@import "./components/_homes.css";
+@import "./components/_realtors.css";
+@import "./components/_sidebar.css";
+@import "./components/_story.css";
+@import "./components/_footer.css";

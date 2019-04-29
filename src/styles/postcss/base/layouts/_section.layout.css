@@ -1,0 +1,95 @@
+.container {
+  max-width: 120rem;
+  margin: 8rem auto;
+  background-color: var(--color-gray-light-1);
+  box-shadow: var(--shadow-dark);
+
+  min-height: 50rem;
+
+  @mixin atLarge {
+    margin: 0;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+.header {
+  font-size: 1.4rem;
+  height: 7rem;
+  background-color: #fff;
+  border-bottom: var(--line);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @mixin atSmallest {
+    flex-wrap: wrap;
+    align-content: space-around;
+    height: 11rem;
+  }
+}
+
+.content {
+  display: flex;
+
+  @mixin atMedium {
+    flex-direction: column;
+  }
+}
+
+.sidebar {
+  background-color: var(--color-gray-dark-1);
+
+  flex: 0 0  18%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
+
+.detail {
+  font-size: 1.4rem;
+  display: flex;
+  padding: 4.5rem;
+  background-color: var(--color-gray-light-1);
+  border-top: var(--line);
+
+  @mixin atMedium {
+    padding: 3rem;
+  }
+
+  @mixin atSmall {
+    flex-direction: column;
+  }
+}
+
+.description {
+  background-color: #fff;
+  box-shadow: var(--shadow-light);
+  padding: 3rem;
+  flex: 0 0 60%;
+  margin-right: 4.5rem;
+
+  @mixin atMedium {
+    padding: 2rem;
+    margin-right: 3rem;
+  }
+
+  @mixin atSmall {
+    margin-right: 0;
+    margin-bottom: 3rem;
+  }
+}
+
+.user-reviews {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

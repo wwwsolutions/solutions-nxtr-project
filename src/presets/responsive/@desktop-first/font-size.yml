@@ -1,0 +1,18 @@
+# SET FONT-SIZE @DESKTOP-FIRST-STRATEGY
+
+atSmall:
+  font-size: 62.5%
+
+atMedium:
+  font-size: 62.5%
+
+atLarge:
+  font-size: 62.5%
+
+atDefault:            # FONT-SIZE @DEFAULT-BREAKPOINT
+  font-size: 62.5%    # DEFINITION @1rem
+
+atXLarge:
+  font-size: 62.5%
+
+#

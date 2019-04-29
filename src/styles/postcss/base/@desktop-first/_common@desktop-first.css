@@ -1,0 +1,22 @@
+/* @DESKTOP-FIRST-STRATEGY
+
+  > WARNING!
+  > ORDER OF BREAKPOINTS MATTERS!
+
+    [default]
+    ...
+    atXLarge
+    atLarge
+    atMedium
+    atSmall
+
+*/
+
+::selection {
+  /* background-color: var(--color-primary); */
+  /* color: var(--color-white); */
+}
+
+body {
+  color: $color-gray-dark-2;
+}

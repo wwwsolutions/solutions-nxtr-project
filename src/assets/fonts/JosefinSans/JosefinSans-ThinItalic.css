@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'JosefinSans-ThinItalic';
+    src: url('JosefinSans-ThinItalic.eot');
+    src: url('JosefinSans-ThinItalic.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-ThinItalic.woff2') format('woff2'),
+        url('JosefinSans-ThinItalic.woff') format('woff'),
+        url('JosefinSans-ThinItalic.ttf') format('truetype'),
+        url('JosefinSans-ThinItalic.svg#JosefinSans-ThinItalic') format('svg');
+    font-weight: 100;
+    font-style: italic;
+}

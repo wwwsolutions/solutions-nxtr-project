@@ -1,0 +1,21 @@
+# SET FONT FAMILY
+primary:
+  font-family: "'JosefinSans-Regular', sans-serif"
+  font-weight: 400;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'
+
+secondary:
+  font-family: "'JosefinSans-Light', sans-serif"
+  font-weight: 300;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'
+
+tertiary:
+  font-family: "'Nunito-Light', sans-serif"
+  font-weight: 300;
+  font-style: normal;
+  font-feature-settings: "'onum', 'kern', 'liga', 'dlig', 'clig'"
+  font-kerning: 'normal'

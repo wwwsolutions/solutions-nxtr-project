@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Nunito-LightItalic';
+    src: url('Nunito-LightItalic.eot');
+    src: url('Nunito-LightItalic.eot?#iefix') format('embedded-opentype'),
+        url('Nunito-LightItalic.woff2') format('woff2'),
+        url('Nunito-LightItalic.woff') format('woff'),
+        url('Nunito-LightItalic.ttf') format('truetype'),
+        url('Nunito-LightItalic.svg#Nunito-LightItalic') format('svg');
+    font-weight: 300;
+    font-style: italic;
+}
+

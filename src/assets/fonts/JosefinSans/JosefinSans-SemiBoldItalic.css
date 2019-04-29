@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'JosefinSans-SemiBoldItalic';
+    src: url('JosefinSans-SemiBoldItalic.eot');
+    src: url('JosefinSans-SemiBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('JosefinSans-SemiBoldItalic.woff2') format('woff2'),
+        url('JosefinSans-SemiBoldItalic.woff') format('woff'),
+        url('JosefinSans-SemiBoldItalic.ttf') format('truetype'),
+        url('JosefinSans-SemiBoldItalic.svg#JosefinSans-SemiBoldItalic') format('svg');
+    font-weight: 600;
+    font-style: italic;
+}
