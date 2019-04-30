@@ -42,3 +42,31 @@ html {
     content: "atSmall@desktop-first";
   } */
 }
+%heading {
+  @map font-family secondary;
+  font-weight: bold;
+}
+
+.heading-1 {
+  @extend %heading;
+}
+
+.heading-2 {
+  @extend %heading;
+}
+
+.heading-3 {
+  @extend %heading;
+}
+.heading-4 {
+  @extend %heading;
+  font-size: 1.9rem;
+
+  &--light {
+    color: $color-gray-light-1;
+  }
+
+  &--dark {
+    color: $color-gray-dark-1;
+  }
+}
