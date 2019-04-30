@@ -1,3 +1,4 @@
 .footer {
-  /* PLACEHOLDER */
+  background-color: $color-secondary;
+  grid-column: full-start / full-end;
 }

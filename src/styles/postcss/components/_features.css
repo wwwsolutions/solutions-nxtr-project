@@ -1,3 +1,4 @@
 .features {
-  /* PLACEHOLDER */
+  background-color: $color-gray-light-2;
+  grid-column: center-start / center-end;
 }
