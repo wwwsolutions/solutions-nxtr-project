@@ -6,8 +6,6 @@
       linear-gradient(to right, color($color-primary a(60%)), color($color-primary a(0%))),
       url(../../assets/images/back.jpg);
 
-    /* linear-gradient(to right bottom, color($color-secondary-light a(100%)), color($color-secondary-dark a(100%))); */
-
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-columns: repeat(6, 1fr);
