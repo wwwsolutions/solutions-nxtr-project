@@ -18,29 +18,29 @@ html {
   @map font-size atDefault;
   @map line-height atDefault;
 
-  /* @mixin atXLarge {
+  @mixin atXLarge {
     @map font-size atXLarge;
     @map line-height atXLarge;
     content: "atXLarge@desktop-first";
-  } */
+  }
 
-  /* @mixin atLarge {
+  @mixin atLarge {
     @map font-size atLarge;
     @map line-height atLarge;
     content: "atLarge@desktop-first";
-  } */
+  }
 
-  /* @mixin atMedium {
+  @mixin atMedium {
     @map font-size atMedium;
     @map line-height atMedium;
     content: "atMedium@desktop-first";
-  } */
+  }
 
-  /* @mixin atSmall {
+  @mixin atSmall {
     @map font-size atSmall;
     @map line-height atSmall;
     content: "atSmall@desktop-first";
-  } */
+  }
 }
 
 %heading {
